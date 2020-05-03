@@ -1,1 +1,0 @@
-{"version":3,"sources":["basket.css"],"names":[],"mappings":"AAAA,mBACC,cAAe,CACf,iBACD,CAEA,cACC,UAAW,CACX,iBACD","file":"main.69a3e63e.chunk.css","sourcesContent":[".basketDesign li > * {\n\tdisplay: inline;\n\tmargin-right: 10px;\n}\n\n.form-control {\n\twidth: auto;\n\tmargin-right: 10px;\n}\n"]}
