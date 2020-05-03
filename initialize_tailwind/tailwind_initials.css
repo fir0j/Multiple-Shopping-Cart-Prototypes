@@ -1,0 +1,12 @@
+/* 
+
+This represents the order in which tailwind.css will be generated.
+To be more specific, 
+1. at the top of tailwind.css, tailwind_base styles for the purpose normalization for browsers or universal reset will be generated
+2. Just below tailwind_css, classes for tailwind_component like .container class will be generated
+3. Just below tailwind_component, classes for tailwind_utitlites like .bg-fixed, .bg-scroll, .appearance-none will be generated
+
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
