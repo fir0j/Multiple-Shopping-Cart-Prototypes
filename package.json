@@ -21,9 +21,8 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "postcss initialize_tailwind/tailwind_initials.css -o public/css_framework/tailwind.css",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
+		"build": "react-scripts build",
+		"buildAndWatch": "postcss src/css/framework/tailwind.src.css -o src/css/framework/tailwind.custom.css --watch",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
 	},
@@ -31,15 +30,7 @@
 		"extends": "react-app"
 	},
 	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
+		"production": [ ">0.2%", "not dead", "not op_mini all" ],
+		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
 	}
 }
